@@ -1,0 +1,7 @@
+[package]
+name = "fatorial_paralelo_intercalado"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num = "0.4"
