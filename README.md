@@ -43,7 +43,7 @@ fn fatorial(num : u32, ini: u32, pre_cal: BigUint) -> BigUint {
 }
 
 fn dividir_trabalho(num: u32) {
-    let num_threads = 10;//Números de threads
+    let num_threads = 1000;//Números de threads
     let mut handles = Vec::new();//Cria um vetor para salvar ponteiros para as threads 
     
     let mapa: Arc<Mutex<HashMap<u32, BigUint>>> = Arc::new(Mutex::new(HashMap::new()));//Estrutura hash, para salvar os resultados dos fatoriais
@@ -106,7 +106,7 @@ fn dividir_trabalho(num: u32) {
 }
 
 fn main() {
-    let fat: u32 = 10000;
+    let fat: u32 = 1000000;
     let start = Instant::now();
     dividir_trabalho(fat);
     println!("Tempo de execução: {:?}", start.elapsed());
