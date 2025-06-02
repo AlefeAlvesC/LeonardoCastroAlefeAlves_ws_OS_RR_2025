@@ -1,13 +1,26 @@
-# Fatorial usando Multithreading
-> Repositório referente ao seminário de SO com tema Fatorial usando multithreading
+<h1>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Símbolo Rust" width="30" style="vertical-align: middle;">
+  Fatorial usando Multithreading
+</h1>
+
+**Repositório referente ao seminário de SO com tema Fatorial usando multithreading**
 
 ---
+
+### Sumário
+
+- [Sumário](#sumário)
+- [Código do Fatorial usando Multithreading em Rust](#código-do-fatorial-usando-multithreading-em-rust)
+- [Rede de Petri](#rede-de-petri)
+- [Slide da Apresentação](#slide-da-apresentação)
+- [Referências](#referências)
+- [Ferramentas e linguagens utilizadas](#ferramentas-e-linguagens-utilizadas)
 
 **Integrantes:** [Leonardo Castro](https://github.com/thetwelvedev) e [Álefe Alves](https://github.com/AlefeAlvesC).
 
 **Descrição:** O projeto a ser desenvolvido consiste em calcular o fatorial de todos os números até 1.000.000. Utilizando threads para cada faixa de 1000 valores, criaremos uma thread e dispararemos o processo para cada uma delas. O fatorial de um número inteiro e positivo “n”, representado por “n!”, é obtido a partir da multiplicação de todos os seus antecessores até o número um, cuja expressão genérica é: n! = n × (n – 1) × (n – 2) × ... × 2 × 1
 
-**Código do Fatorial usando Multithreading em Rust**
+### Código do Fatorial usando Multithreading em Rust
 ```rust
 //extern crate num;
 //use num::bigint::BigUint;
@@ -101,11 +114,23 @@ fn main() {
 }
 ```
 
-**Rede de Petri**
+### Rede de Petri
 ![Rede de petri](/rede_de_petri/faotrial.png)
-**Referências**
+
+### Slide da Apresentação
+[Acesse aqui](/slide/)
+
+### Referências
 - PROGRAMMING IDIOMS. Recursive factorial (simple). Disponível em: https://programming-idioms.org/idiom/31/recursive-factorial-simple/450/rust. Acesso em: 31 maio 2025.
 
 - USERS RUST-LANG. Parallel product for factorial – surprised by the results. 14 maio 2019. Disponível em: https://users.rust-lang.org/t/parallel-product-for-factorial-surprised-by-the-results/30776/14. Acesso em: 31 maio 2025.
 
 - DANDYVICA. Using threads on Rust – Part 3. Dev.to, 17 nov. 2020. Disponível em: https://dev.to/dandyvica/using-threads-on-rust-part-3-2bpf. Acesso em: 31 maio 2025.
+
+---
+
+### Ferramentas e linguagens utilizadas
+<div>
+  <img src="https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat" alt="VS Code">
+  <img src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat" alt="Rust">
+</div>
