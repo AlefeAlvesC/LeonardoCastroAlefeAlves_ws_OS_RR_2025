@@ -118,7 +118,7 @@ fn main() {
 ![Rede de petri](/rede_de_petri/faotrial.png)
 
 ### Slide da Apresentação
-[Acesse aqui](/slide/SO%Fatorial%usando%multithreading.png)
+[Acesse aqui](/slide/SO%20Fatorial%20usando%20multithreading.pdf)
 
 ### Referências
 - PROGRAMMING IDIOMS. Recursive factorial (simple). Disponível em: https://programming-idioms.org/idiom/31/recursive-factorial-simple/450/rust. Acesso em: 31 maio 2025.
